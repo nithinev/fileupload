@@ -1,0 +1,15 @@
+Chk the path where psql is installed in your system
+	which psql
+Check the version of psql in your system
+	psql --version
+Psql role root access 
+	sudo su - postgres  / sudo -u postgres -i
+
+Run psql shell
+	psql
+List Database
+	\l
+Connect Database
+	\c <Database name>
+List Table 
+	\d <table_name>
